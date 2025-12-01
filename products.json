@@ -74,4 +74,42 @@
       "mrp": 28
     }
   ]
+    }{
+  "products": [
+    {
+      "brand": "Diclofen 50 mg",
+      "generic": "Diclofenac Sodium",
+      "category": "NSAID",
+      "form": "Tablet (10 pcs strip)",
+      "mrp": 10
+    },
+    {
+      "brand": "Volinac Max 2% Gel 50gm",
+      "generic": "Diclofenac Sodium",
+      "category": "Pain Relief Gel",
+      "form": "Gel Tube 50gm",
+      "mrp": 170
+    },
+    {
+      "brand": "Voligel 1% Gel 50gm",
+      "generic": "Diclofenac Sodium",
+      "category": "Pain Relief Gel",
+      "form": "Gel Tube 50gm",
+      "mrp": 97
+    },
+    {
+      "brand": "Naprox 500 mg",
+      "generic": "Naproxen",
+      "category": "NSAID",
+      "form": "Tablet (10 pcs strip)",
+      "mrp": 110
+    },
+    {
+      "brand": "Etorix 90 mg",
+      "generic": "Etoricoxib",
+      "category": "NSAID",
+      "form": "Tablet",(10 pcs strip)",
+      "mrp": 120
+    }
+  ]
     }
