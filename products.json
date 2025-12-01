@@ -1,1 +1,77 @@
 
+{
+  "products":[
+    {
+      "brand": "Napa 500mg",
+      "generic": "Paracetamol",
+      "category": "Pain Killer",
+      "mrp": 1.2
+    },
+    {
+      "brand": "Napa Extra",
+      "generic": "Paracetamol + Caffeine",
+      "category": "Pain Killer",
+      "mrp": 2.5
+    },
+    {
+      "brand": "Napa Rapid",
+      "generic": "Paracetamol (Fast Acting)",
+      "category": "Pain Killer",
+      "mrp": 1.3
+    },
+    {
+      "brand": "Napa Extend",
+      "generic": "Paracetamol (Extended Release)",
+      "category": "Pain Killer",
+      "mrp": 2
+    },
+    {
+      "brand": "Napa One",
+      "generic": "Paracetamol 665mg",
+      "category": "Pain Killer",
+      "mrp": 2.30
+    },
+    {
+      "brand": "Napa Syrup",
+      "generic": "Paracetamol",
+      "category": "Pain Killer (Syrup)",
+      "mrp": 35
+    },
+    {
+      "brand": "Napa Drop",
+      "generic": "Paracetamol",
+      "category": "Pain Killer (Drop)",
+      "mrp": 25
+    },
+    {
+      "brand": "Ace 500mg",
+      "generic": "Paracetamol",
+      "category": "Pain Killer",
+      "mrp": 1.2
+    },
+    {
+      "brand": "Ace XR",
+      "generic": "Paracetamol Extended",
+      "category": "Pain Killer",
+      "mrp": 2
+    },
+    {
+      "brand": "Ace Power",
+      "generic": "Paracetamol + Caffeine",
+      "category": "Pain Killer",
+      "mrp": 2.3
+    },
+    {
+      "brand": "Ace Syrup",
+      "generic": "Paracetamol",
+      "category": "Syrup",
+      "mrp": 35
+    },
+    {
+      "brand": "Ace Drop",
+      "generic": "Paracetamol",
+      "category": "Drop",
+      "mrp": 28
+    }
+  ]
+    }
