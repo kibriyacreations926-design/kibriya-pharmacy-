@@ -1,4 +1,134 @@
-<!doctype html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kibriya MediTonic</title>
+
+    <style>
+        body{
+            margin:0;
+            font-family:Arial, sans-serif;
+            background:#e7f3ff;
+        }
+        header{
+            background:#005eff;
+            color:white;
+            padding:15px;
+            text-align:center;
+            font-size:26px;
+            font-weight:bold;
+            letter-spacing:1px;
+        }
+        .searchBox{
+            width:90%; margin:20px auto;
+            display:flex;
+        }
+        .searchBox input{
+            flex:1; padding:14px;
+            font-size:16px;
+            border:2px solid #005eff;
+            border-right:none; border-radius:8px 0 0 8px;
+            outline:none;
+        }
+        .searchBox button{
+            padding:14px 20px;
+            background:#005eff;
+            color:white;
+            border:none;
+            font-size:16px;
+            font-weight:bold;
+            border-radius:0 8px 8px 0;
+        }
+
+        /* Categories */
+        .catTitle{
+            font-size:22px; font-weight:bold;
+            margin:25px 15px 10px;
+        }
+        .categories{
+            display:flex; flex-wrap:wrap;
+            gap:12px; padding:0 15px;
+        }
+        .catBox{
+            background:white;
+            padding:12px; width:30%;
+            min-width:95px; text-align:center;
+            border-radius:10px; border:1px solid #005eff;
+            cursor:pointer; font-size:15px; font-weight:bold;
+        }
+
+        /* Product Grid */
+        .products{
+            padding:15px;
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+            gap:15px;
+        }
+        .product{
+            background:white;
+            border-radius:10px;
+            padding:10px;
+            border:1px solid #d1d1d1;
+            text-align:center;
+        }
+        .product img{
+            width:90px; height:90px; object-fit:contain;
+        }
+        .orderBtn{
+            background:#005eff;
+            color:white;
+            padding:8px 14px;
+            border:none;
+            margin-top:7px;
+            border-radius:6px;
+        }
+
+        footer{
+            background:#003ea8;
+            text-align:center; color:white;
+            padding:12px; margin-top:20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>KIBRIYA MEDITONIC 💙</header>
+
+<div class="searchBox">
+    <input type="text" placeholder="Search Medicines...">
+    <button>Search</button>
+</div>
+
+<p class="catTitle">Categories</p>
+<div class="categories">
+    <div class="catBox">Pain Killer</div>
+    <div class="catBox">Antibiotics</div>
+    <div class="catBox">Baby Care</div>
+    <div class="catBox">Diabetic</div>
+    <div class="catBox">Vitamins</div>
+    <div class="catBox">Health + More</div>
+</div>
+
+<p class="catTitle">Products</p>
+<div class="products">
+
+    <div class="product">
+        <img src="https://i.ibb.co/pxrqQ6L/paracetamol.png">
+        <h4>Paracetamol</h4>
+        <p>Price: ৳15</p>
+        <button class="orderBtn">Order Now</button>
+    </div>
+
+    <div class="product">
+        <img src="https://i.ibb.co/5xwZ4Ns/ors.png">
+        <h4>ORS Saline</h4>
+        <p>Price: ৳25</p>
+        <button class="orderBtn">Order Now</button>
+    </div>
+
+    <div class="product">
+        <img src="https://i.ibb.co/DYt<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
