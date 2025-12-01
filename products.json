@@ -112,4 +112,63 @@
       "mrp": 120
     }
   ]
+    }{
+  "products": [
+    {
+      "brand": "Cef 3 200 mg",
+      "generic": "Cefixime",
+      "category": "Antibiotic – Cephalosporin",
+      "form": "Tablet",
+      "mrp": 45
+    },
+    {
+      "brand": "Feurocef 500 mg",
+      "generic": "Cefuroxime",
+      "category": "Antibiotic – Cephalosporin",
+      "form": "Tablet",
+      "mrp": 45
+    },
+    {
+      "brand": "Zimax 500 mg",
+      "generic": "Azithromycin",
+      "category": "Antibiotic – Macrolide",
+      "form": "Tablet",
+      "mrp": 40
+    },
+    {
+      "brand": "Moxacil 500 mg",
+      "generic": "Amoxicillin",
+      "category": "Antibiotic – Penicillin",
+      "form": "Capsule/Tablet",
+      "mrp": 7.5
+    },
+    {
+      "brand": "Moxaclav 625 mg",
+      "generic": "Amoxicillin + Clavulanic Acid",
+      "category": "Antibiotic – Beta-lactam + Inhibitor",
+      "form": "Tablet",
+      "mrp": 32
+    },
+    {
+      "brand": "Metryl 400 mg",
+      "generic": "Metronidazole",
+      "category": "Antibiotic – Nitroimidazole",
+      "form": "Tablet",
+      "mrp": 1.70
+    },
+    {
+      "brand": "Ciprocin 500 mg",
+      "generic": "Ciprofloxacin",
+      "category": "Antibiotic – Fluoroquinolone",
+      "form": "Tablet",
+      "mrp": 15
+    },
+    {
+      "brand": "Doxicap 100 mg",
+      "generic": "Doxycycline",
+      "category": "Antibiotic – Tetracycline",
+      "form": "Capsule/Tablet",
+      "mrp": 2.20
+    }
+  ]
     }
