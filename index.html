@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="bn">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Kibriya MediTonic — Pharmacy</title>
+  <style>
+    /* Simple clean styling */
+    :root{--bg:#f6fbff;--card:#fff;--muted:#666}
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,"Noto Sans",Arial; margin:0; background:var(--bg); color:#111}
+    header{background:#0e76a8;color:#fff;padding:18px 20px;display:flex;align-items:center;gap:18px}
+    header h1{margin:0;font-size:18px}
+    .container{max-width:1100px;margin:18px auto;padding:0 16px}
+    .filters{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:12px}
+    input.search{flex:1;padding:10px;border-radius:8px;border:1px solid #ddd}
+    select{padding:10px;border-radius:8px;border:1px solid #ddd}
+    #productList{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px}
+    .card{background:var(--card);padding:12px;border-radius:10px;box-shadow:0 6px 18px rgba(10,10,10,0.06)}
+    .card h3{margin:0 0 6px;font-size:16px}
+    .card p{margin:4px 0;color:var(--muted);font-size:14px}
+    .btn{display:inline-block;padding:8px 10px;border-radius:8px;border:none;cursor:pointer;}
+    .btn-primary{background:#0e76a8;color:#fff}
+    .btn-muted{background:#eee;color:#333}
+    .cart-bar{position:fixed;right:18px;bottom:18px;background:#0e76a8;color:#fff;padding:10px;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.12)}
+    .cart-count{background:#fff;color:#0e76a8;padding:4px 8px;border-radius:20px;margin-left:8px;font-weight:600}
+    footer{padding:18px;text-align:center;color:#666}
+  </style>
+</head>
+<body>
+  <header>
+    <img src="" alt="" style="width:40px;height:40px;border-radius:8px;background:#fff"> 
+    <h1>Kibriya MediTonic</h1>
+    <div style="margin-left:auto;font-size:14px">City delivery: 20৳ — Out of city: 120৳</div>
+  </header>
+
+  <main class="container">
+    <div class="filters">
+      <input id="searchInput" class="search" placeholder="Search brand or generic..." />
+      <select id="categoryFilter"><option value="all">All Categories</option></select>
+      <select id="sortBy"><option value="default">Sort</option><option value="name">A → Z</option><option value="price_low">Price ↑</option><option value="price_high">Price ↓</option></select>
+      <button id="refreshBtn" class="btn btn-muted">Reload</button>
+      <a class="btn btn-primary" href="admin.html" style="margin-left:auto">Admin</a>
+    </div>
+
+    <div id="productList" aria-live="polite"></div>
+
+    <div style="margin-top:14px; text-align:center;">
+      <button id="loadMore" class="btn btn-muted">Load more</button>
+    </div>
+  </main>
+
+  <div class="cart-bar" id="cartBar" style="display:none">
+    <span>Cart</span><span class="cart-count" id="cartCount">0</span>
+    <div style="margin-top:8px">
+      <button id="viewCart" class="btn btn-muted">View</button>
+      <button id="checkoutWA" class="btn btn-primary">Order via WhatsApp</button>
+    </div>
+  </div>
+
+  <footer>© Kibriya MediTonic — Built for quick start</footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
