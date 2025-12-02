@@ -1,1 +1,31 @@
 
+[
+  {
+    "id": 1,
+    "name": "Napa 500 mg",
+    "price": 12,
+    "category": "Pain Relief",
+    "image": "https://i.ibb.co.com/y60G0rZ/napa.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Ace 500 mg",
+    "price": 10,
+    "category": "Pain Relief",
+    "image": "https://i.ibb.co.com/p4zG4G9/ace.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Finix 20 mg",
+    "price": 110,
+    "category": "Gastric",
+    "image": "https://i.ibb.co.com/4Wt0k0v/finix.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Napa Extra",
+    "price": 20,
+    "category": "Pain Relief",
+    "image": "https://i.ibb.co.com/wQv9WJ8/napa-extra.jpg"
+  }
+]
